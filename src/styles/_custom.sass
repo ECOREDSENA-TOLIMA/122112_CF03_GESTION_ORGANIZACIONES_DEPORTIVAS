@@ -17,3 +17,239 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #0D2380
+
+.boton *, .boton--sm *
+  color: #ffff
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+// Backgrounds especificos ------------------------------
+.bg-gray
+  background-color: #E8E8E8 !important
+
+.bg
+  &--1
+    background-color: $color-primario !important
+    &-claro
+      background-color: #CAD4FF !important
+  &--1-1
+    background-color: #B1DAFA !important
+  &--2
+    background-color: $color-secundario !important
+    &-claro
+      background-color: lighten($color-secundario, 30% ) !important
+  &--3
+    background-color: $color-acento-contenido !important
+    &-claro
+      background-color: lighten($color-acento-contenido, 40% ) !important
+  &--4
+    background-color: $color-acento-botones !important
+    &-claro
+      background-color: lighten($color-acento-botones, 30% ) !important
+    &-claro2
+      background-color: #FEFDE5
+  &--orange
+    background-color: #FF6B00
+  &--dorado
+    background-color: #C69E06
+  &--a1
+    background-color: #092397
+.hover-size
+  transition: transform 0.3s ease-in-out
+  &:hover
+    transform: scale(1.05)
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: $color-primario !important
+
+.tema1
+  .tarjeta-rotate
+    overflow-x: hidden
+
+    &:hover
+      .img-rotate
+        transform: translateX(-50%)
+    .img-rotate
+      display: flex
+      width: 200%
+      position: relative
+      transition: transform 0.3s ease-in-out
+      .img-rotate__img
+        flex: 1
+        display: flex
+        justify-content: center
+
+  .contenedor-tarjetas
+    display: flex
+    flex-wrap: wrap
+    .tarjetas
+      width: 248px !important
+      flex-grow: .2
+
+  .tarjeta-slide-up
+    overflow: hidden
+    position: relative
+    &:hover
+      .tarjeta-slide-up__up
+        bottom: 0%
+      .tarjeta__texto
+        z-index: -1
+    .tarjeta-slide-up__up
+      position: absolute
+      width: 100%
+      height: 100%
+      bottom: -100%
+      transition: bottom 0.3s ease-in-out
+    .tarjeta__titulo
+      position: absolute
+      bottom: 0
+      width: 100%
+    .tarjeta__texto
+      position: absolute
+      bottom: 0
+      height: 100%
+
+  .tarjeta-slide-up2
+    overflow: hidden
+    position: relative
+    transition: background-color 0.3s ease-in-out
+    &:hover
+      border: solid $color-acento-botones !important
+      .tarjeta-slide-up__up
+        bottom: -100%
+      .tarjeta__texto
+        z-index: 1
+      .tarjeta__titulo
+        background-color: $color-acento-botones !important
+    .tarjeta-slide-up__up
+      position: absolute
+      width: 100%
+      height: 100%
+      bottom: -100%
+      bottom: 0%
+      transition: bottom 0.3s ease-in-out
+    .tarjeta__titulo
+      transition: background-color 0.3s ease-in-out
+      position: absolute
+      bottom: 0
+      width: 100%
+    .tarjeta__texto
+      position: absolute
+      bottom: 0
+      z-index: -1
+      height: 100%
+
+  .tarjeta-icono
+    position: relative
+    .tarjeta-icono__icono
+      position: absolute
+      top: 0
+      left: 3%
+      transform: translateY(-25%)
+    .tarjeta-icono__texto
+      margin-left: 102px
+
+  .texto-oscuro
+    h1,h2,h3,h4,h5, p
+      color: $color-sistema-texto !important
+
+.tema2
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+  .bloque-texto-g
+    justify-content: flex-start
+  .hover-blue
+    transition: background-color 0.2s ease-in-out
+    &:hover
+      background-color: $color-primario !important
+  .barras-relleno
+    flex-wrap: wrap
+    &__contenedor
+        flex-grow: 1
+        position: relative
+        max-width: 180px
+        width: 180px
+        height: 357px
+        background: linear-gradient(90deg, rgba(187,186,186,1) 0%, rgba(220,218,218,1) 100%)
+    &__relleno
+      position: absolute
+      bottom: 0
+      width: 100%
+
+    &__texto
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      z-index: 99
+
+  .a
+    &--1
+      animation: relleno1 7s ease-in-out infinite
+      animation-delay: 0
+      animation-fill-mode: forwards
+    &--2
+      animation: relleno2 7s ease-in-out infinite
+      animation-delay: 0
+      animation-fill-mode: forwards
+    &--3
+      animation: relleno3 7s ease-in-out infinite
+      animation-delay: 0
+      animation-fill-mode: forwards
+  
+  @keyframes relleno1
+    0%
+      height: 0
+
+    80%
+      height: 25%
+    100%
+      height: 25%
+  @keyframes relleno2
+    0%
+      height: 0
+
+    80%
+      height: 15%
+    100%
+      height: 15%
+  @keyframes relleno3
+    0%
+      height: 0
+
+    80%
+      height: 20%
+    100%
+      height: 20%
+
+  .tarjeta-foto-hover
+    position: relative
+    overflow: hidden
+    &:hover
+      .tarjeta-foto-hover__tarjeta
+        transform: translateY(0%)
+
+    &__titulo
+      position: absolute
+      bottom: 0
+      width: 100%
+    &__tarjeta
+      transition: transform 0.3s ease-in-out
+      position: absolute
+      bottom: 0
+      width: 100%
+      height: 100%
+      transform: translateY(100%)

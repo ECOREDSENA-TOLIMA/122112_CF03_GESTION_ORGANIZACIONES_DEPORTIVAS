@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Implementación de un proyecto deportivo',
+    descripcionCurso:
+      'Este componente comprende conceptos y herramientas que se deben tener en cuenta para la implementación de un proyecto en una organización deportiva.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal-2.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    fondoBannerInterno: require('@/assets/curso/portada/00.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,13 +23,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ejecución de un proyecto deportivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Gestión de comunicaciones',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Gestión de conflictos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Gestión de riesgos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Gestión de la calidad y aseguramiento de la calidad',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,14 +52,30 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de adquisiciones, compras y contrataciones',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Identificación de requerimientos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Selección de proveedores',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Control y seguimiento de cumplimiento de proveedores',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Fuentes de financiación de la propuesta',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +125,55 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Selección, evaluación y reevaluación de proveedores',
+      referencia:
+        'Miguel, R. (2020). Procedimientos generales de proveedores. Grupo Lebbyac.',
+      tipo: 'Manual de procedimiento',
+      link:
+        'http://www.lebbyac.com/manual2/Procedimientos_generales/proveedores.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Proveedor',
+      significado:
+        'persona natural o jurídica que cumple con las exigencias establecidas por el laboratorio para prestar servicios o entregar suministros.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Productos',
+      significado:
+        'corresponde a clasificación genérica para compras generales de bienes y productos tangibles (insumos, suministros, equipos, productos terminados, etc.).',
+    },
+    {
+      termino: 'Servicios',
+      significado:
+        'clasificación genérica para compras de servicios, obras, contratistas, consultorías y otros servicios.',
+    },
+    {
+      termino: 'Calidad',
+      significado:
+        'proceso continuo, sin fin, de mejora aplicable a todas las fases y componentes del proyecto, con el fin de mejorar los productos y servicios que la organización oferta.',
+    },
+    {
+      termino: 'Aseguramiento de la calidad',
+      significado:
+        'aplicación de actividades planificadas y sistemáticas relativas a la calidad para asegurar que el proyecto emplee todos los procesos necesarios para cumplir con los requisitos.',
+    },
+    {
+      termino: 'Conflicto',
+      significado:
+        'litigio o disputa percibe que la otra parte le ha afectado o perjudicado sus intereses.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'IPMA - International Project Management Association. (2006). ICB Competence Baseline Version 3.0. IPMA.',
+      link: '',
+    },
+    {
+      referencia:
+        'PMI - Project Management Institute. (2008). Organizational Project Management Maturity Model. Project Management Institute',
       link: '',
     },
   ],
@@ -142,8 +189,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +199,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +209,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +234,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
