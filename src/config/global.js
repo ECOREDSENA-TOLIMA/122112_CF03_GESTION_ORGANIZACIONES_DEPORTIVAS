@@ -176,6 +176,23 @@ export default {
         'PMI - Project Management Institute. (2008). Organizational Project Management Maturity Model. Project Management Institute',
       link: '',
     },
+    {
+      referencia:
+        'Project Management Institute. (2013). Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK) (5ta ed.). Recuperado de',
+      link:
+        'https://sistemastic.files.wordpress.com/2017/07/guia_de_los_fundamentos_para_la_direccion_de_proyectos-pmbok_5ta_edicion_espanol.pdf',
+    },
+    {
+      referencia:
+        'ICONTEC. (2015). Norma técnica Colombiana ISO 9000. Recuperado de',
+      link:
+        'https://www.guadalupanolasalle.edu.co/sgc/ISO9000-2015-Fundamentos-y-vocabulario.pdf',
+    },
+    {
+      referencia:
+        'ICONTEC. (2015). Norma técnica Colombiana ISO 9001. Recuperado de',
+      link: 'https://www.cecep.edu.co/documentos/calidad/ISO-9001-2008.pdf',
+    },
   ],
   creditos: [
     {

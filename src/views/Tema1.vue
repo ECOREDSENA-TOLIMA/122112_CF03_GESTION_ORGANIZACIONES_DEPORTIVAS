@@ -91,7 +91,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Gestión de comunicaciones
 
-    p La gestión de las comunicaciones según la PMBOK (2003) incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto. En este sentido, la comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto. Además, suministrar la información a la persona requerida en el momento oportuno, empleando el medio, formato y técnica más apropiada, es lo más acertado para establecer una adecuada apropiación de los procesos al interior de un proyecto. 
+    p La gestión de las comunicaciones según la PMBOK (2013), "incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto." En este sentido, la comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto. Además, suministrar la información a la persona requerida en el momento oportuno, empleando el medio, formato y técnica más apropiada, es lo más acertado para establecer una adecuada apropiación de los procesos al interior de un proyecto.
     p.mb-5 Por lo anterior, este componente es de gran importancia, ya que de nada sirve tener una correcta planificación en un proyecto, sino se establecen canales ágiles de comunicación que permitan un trabajo sincronizado y coordinado. Por ello, en la gestión de comunicaciones del proyecto es importante tener en cuenta:
 
     .row.mb-5
@@ -312,8 +312,12 @@
 
     p.mb-5 Dentro del proyecto se deberán contemplar acciones preventivas y proactivas para identificar, con antelación, posibles peligros y controlar de manera oportuna los riesgos. Para tal fin es preciso implementar acciones como: 
 
-    figure.mb-5(data-aos="zoom-in-up")
-      img(src='@/assets/curso/temas/tema1/35.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Acciones para la gestión de riesgos</em>
+        figure
+          img.mb-2(src='@/assets/curso/temas/tema1/35.svg', alt='En la figura 1 se muestran las acciones a implementar para la gestión de riesgos, tales como: planificación, identificación y evaluación, tratamiento y seguimiento.')
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4. Gestión de la calidad y aseguramiento de la calidad
@@ -321,8 +325,12 @@
     p Es preciso partir por la definición de calidad, la que es entendida como un proceso continuo, sin fin, de mejora aplicable a todas las fases y componentes del proyecto para mejorar los productos y servicios que la organización oferta. Así, la ISO 9000 define la calidad como “la totalidad de rasgos y características de un producto o servicio que son relevantes en su habilidad para satisfacer las necesidades declaradas o implícitas del cliente” Por otro lado, el IPMA define la calidad de un proyecto como “la base de la calidad de un proyecto son las prácticas de dirección de calidad por la organización permanentemente implicado y contribuye a los procesos y resultados del proyecto”.
     p.mb-5 De acuerdo con lo anterior, la gestión de calidad comprende los siguientes componentes:
 
-    figure.mb-5(data-aos="zoom-in-up")
-      img(src='@/assets/curso/temas/tema1/36.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Componentes de la gestión de la calidad</em>
+        figure
+          img.mb-2(src='@/assets/curso/temas/tema1/36.svg', alt='En la figura 2 se muestran los componentes de la gestión de la calidad, tales como: política, objetivos, aseguramiento, control, auditoría y plan del programa de calidad.')
 
     .row.mb-5
       .col-lg-7(data-aos="fade-right")

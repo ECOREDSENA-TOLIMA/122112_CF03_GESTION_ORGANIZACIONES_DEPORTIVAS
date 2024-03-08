@@ -109,8 +109,12 @@
         figure
           img(src='@/assets/curso/temas/tema2/50.jpg', alt='Texto que describa la imagen')
 
-    figure.mb-5(data-aos="zoom-in-up")
-      img(src='@/assets/curso/temas/tema2/51.svg')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Proceso de selección de proveedores</em>
+        figure
+          img.mb-2(src='@/assets/curso/temas/tema2/51.svg', alt='En la figura 3 se muestra el proceso para la selección de proveedores, con el fin de identificar el cumplimiento de ciertas características y así tomar decisiones dentro de la organización.')
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Control y seguimiento de cumplimiento de proveedores 
@@ -182,7 +186,7 @@
 
     p.mb-5 De acuerdo a lo anterior, se deben considerar unas escalas de desempeño, la cual se realiza con base en evaluaciones parciales, tanto en productos o servicios, como en las que se relacionan a continuación: 
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(alt='En la tabla 1 se muestra la escala de calificación para evaluar el desempeño de los proveedores. Según esta escala, se considera un desempeño deficiente si la puntuación es menor al 59 %, aceptable si está en el rango del 60 % al 95 %, y excelente si alcanza el 96 % o más.') 
       table.text-center
         thead
           tr
@@ -191,21 +195,21 @@
             th Valoración
         tbody
           tr
-            td Mayor o igual a 96%.
+            td Mayor o igual a 96 %.
             td Se aconseja mantener como proveedor.
             td Excelente. 
           tr
-            td Mayor o igual a 60% y 
+            td Mayor o igual a 60 % y 
               br
-              |Menor que 95%.
+              |Menor que 95 %.
             td Se aconseja condicionar su permanencia en el registro de proveedores, a la espera de las mejoras en su desempeño en un periodo no mayor a 6 meses (debe presentar plan de mejora).
             td Aceptable.
           tr
-            td Menor que 59%.
+            td Menor que 59 %.
             td Se aconseja que no sea considerado como proveedor, ya que no cumple con los requerimientos establecidos por la empresa para el bien o servicio a solicitar; lo anterior no excluye la posibilidad de poder utilizar sus servicios posteriormente (debe presentar plan de mejora, para reevaluación).
             td Deficiente.
 
-    p.mb-5 La evaluación de los proveedores se realiza de forma anual, sin embargo, el control y seguimiento se realiza durante toda la vigencia del contrato
+    p.mb-5 La evaluación de los proveedores se realiza de forma anual, sin embargo, el control y seguimiento se realiza durante toda la vigencia del contrato.
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Fuentes de financiación de la propuesta
