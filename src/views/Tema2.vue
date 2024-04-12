@@ -114,7 +114,8 @@
         .titulo-sexto.color-acento-contenido.mb-5
           p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Proceso de selección de proveedores</em>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema2/51.svg', alt='En la figura 3 se muestra el proceso para la selección de proveedores, con el fin de identificar el cumplimiento de ciertas características y así tomar decisiones dentro de la organización.')
+          img.mb-2.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/51-1.svg', alt='En la figura 3 se muestra el proceso para la selección de proveedores, con el fin de identificar el cumplimiento de ciertas características y así tomar decisiones dentro de la organización.')
+          img.mb-2.d-block.d-md-none(src='@/assets/curso/temas/tema2/51-2.svg', alt='En la figura 3 se muestra el proceso para la selección de proveedores, con el fin de identificar el cumplimiento de ciertas características y así tomar decisiones dentro de la organización.')
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Control y seguimiento de cumplimiento de proveedores 
@@ -161,27 +162,27 @@
       .barras-relleno__contenedor.mx-2.mb-3
         .barras-relleno__relleno.bg--3.a--1
         .barras-relleno__texto.h-100.justify-content-center.p-4.my-5
-            h2.h1.align-self-start.text-center.mx-auto.w-100 25%
+            h2.h1.align-self-start.text-center.mx-auto.w-100 25 %
             h3.text-center.align-self-end Atención oportuna (cotización)
       .barras-relleno__contenedor.mx-2.mb-3
         .barras-relleno__relleno.bg--1.a--1
         .barras-relleno__texto.h-100.justify-content-center.p-4.my-5
-            h2.h1.align-self-start.text-center.mx-auto.w-100 25%
+            h2.h1.align-self-start.text-center.mx-auto.w-100 25 %
             h3.text-center.align-self-end Calidad
       .barras-relleno__contenedor.mx-2.mb-3
         .barras-relleno__relleno.bg--4.a--2
         .barras-relleno__texto.h-100.justify-content-center.p-4.my-5
-            h2.h1.align-self-start.text-center.mx-auto.w-100 15%
+            h2.h1.align-self-start.text-center.mx-auto.w-100 15 %
             h3.text-center.align-self-end Precios
       .barras-relleno__contenedor.mx-2.mb-3
         .barras-relleno__relleno.bg--dorado.a--3
         .barras-relleno__texto.h-100.justify-content-center.p-4.my-5
-            h2.h1.align-self-start.text-center.mx-auto.w-100 20%
+            h2.h1.align-self-start.text-center.mx-auto.w-100 20 %
             h3.text-center.align-self-end Seriedad
       .barras-relleno__contenedor.mx-2.mb-3
         .barras-relleno__relleno.bg--a1.a--2
         .barras-relleno__texto.h-100.justify-content-center.p-4.my-5
-            h2.h1.align-self-start.text-center.mx-auto.w-100 15%
+            h2.h1.align-self-start.text-center.mx-auto.w-100 15 %
             h3.text-center.align-self-end Plazo de entrega
 
     p.mb-5 De acuerdo a lo anterior, se deben considerar unas escalas de desempeño, la cual se realiza con base en evaluaciones parciales, tanto en productos o servicios, como en las que se relacionan a continuación: 

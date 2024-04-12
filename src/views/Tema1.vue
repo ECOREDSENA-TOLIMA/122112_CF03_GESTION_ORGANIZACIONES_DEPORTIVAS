@@ -136,14 +136,42 @@
             p.text-white Cómo se debe presentar la información. 
     
     p.mb-5 La comunicación debe ser siempre clara, sin ambigüedades permitiendo el intercambio fluido de información. Para ello, existen diferentes tipos de comunicación que se pueden emplear en un proyecto, a saber:
+    
+    .row.mt-5.justify-content-center.mt-5
+      .col-lg-6.col-12 
+        ImagenInfografica.color-acento-contenido.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img-v1.svg', alt='Texto que describa la imagen')
 
-    BotonesC.desktop 
-    h3.mb-5.text-center <strong>Tipos de comunicación</strong>
+          .tarjeta.color-acento-contenido.p-3(x="33%" y="12%" numero="+")
+            p Vertical (hacia arriba o abajo dentro de la jerarquía organizacional).
 
-    .row.mt-5.justify-content-center
-      .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
-        figure
-          img(src='@/assets/curso/temas/tema1/comuni.movil-1.svg', alt='')
+          .tarjeta.color-acento-contenido.p-3(x="63%" y="12%" numero="+")
+            p Informales (correos electrónicos, conversaciones).
+
+          .tarjeta.color-acento-contenido.p-3(x="83%" y="32%" numero="+")
+            p Formal (informes, memorando).
+
+          .tarjeta.color-acento-contenido.p-3(x="83%" y="62%" numero="+")
+            p Interna (dentro del proyecto).
+
+          .tarjeta.color-acento-contenido.p-3(x="63%" y="87%" numero="+")
+            p Externa (clientes, otros proyectos).
+
+          .tarjeta.color-acento-contenido.p-3(x="33%" y="87%" numero="+")
+            p Verbal y no verbal. 
+
+          .tarjeta.color-acento-contenido.p-3(x="15.5%" y="62%" numero="+")
+            p Escrita y oral.
+
+          .tarjeta.color-acento-contenido.p-3(x="16%" y="32%" numero="+")
+            p Horizontal (entre miembros de un mismo rango o nivel).
+
+    .row.justify-content-center.mb-5
+      .col-12
+        figure.movil(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema1/img-v2.svg', alt='')
 
     p.mb-5 Según las particularidades del proyecto, se define el plan de comunicaciones que se llevará a cabo, que puede ser:
 
@@ -317,7 +345,8 @@
         .titulo-sexto.color-acento-contenido.mb-5
           p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Acciones para la gestión de riesgos</em>
         figure
-          img.mb-2(src='@/assets/curso/temas/tema1/35.svg', alt='En la figura 1 se muestran las acciones a implementar para la gestión de riesgos, tales como: planificación, identificación y evaluación, tratamiento y seguimiento.')
+          img.mb-2.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/35-1.svg', alt='En la figura 1 se muestran las acciones a implementar para la gestión de riesgos, tales como: planificación, identificación y evaluación, tratamiento y seguimiento.')
+          img.mb-2.d-block.d-md-none(src='@/assets/curso/temas/tema1/35-2.svg', alt='En la figura 1 se muestran las acciones a implementar para la gestión de riesgos, tales como: planificación, identificación y evaluación, tratamiento y seguimiento.')
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4. Gestión de la calidad y aseguramiento de la calidad
