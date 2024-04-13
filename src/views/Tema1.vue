@@ -371,8 +371,7 @@
           p.mb-0 El aseguramiento de la calidad permite prevenir más que corregir defectos de calidad, identificar claramente los objetivos y verificar su cumplimiento ajustado al plan y generar auditorías de calidad. Pero para que lo anterior sea posible, es indispensable conocer los elementos básicos para el plan correspondiente: 
       .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/37.jpg')
 
-    .row.mb-5(data-aos="zoom-in-up").justify-content-center
-      .col-lg-8: img(src='@/assets/curso/temas/tema1/38.svg')
+    LineaTiempoB.color-primario.mb-5(:datos="datosLineaTiempoB")
 
     p.mb-5 Coherente con la fase de ejecución del plan, cada una de las actividades del proyecto y sus respectivos entregables o productos finales, deberán cumplir con los siguientes parámetros:
 
@@ -412,6 +411,35 @@ export default {
   },
   data: () => ({
     mostrarIndicador: true, // variables de vue
+    datosLineaTiempoB: [
+      {
+        texto:
+          'Estructura de División del Trabajo (EDT) en la que se codifican y desagregan las actividades de aseguramiento.',
+        icono: require('@/assets/curso/temas/tema1/img-39.svg'),
+      },
+      {
+        texto:
+          'Identificación de los requerimientos de cada una de las partes interesadas.',
+        icono: require('@/assets/curso/temas/tema1/img-40.svg'),
+      },
+      {
+        texto: 'Identificación de las especificaciones.',
+        icono: require('@/assets/curso/temas/tema1/img-41.svg'),
+      },
+      {
+        texto: 'Descripción de las actividades de aseguramiento.',
+        icono: require('@/assets/curso/temas/tema1/img-42.svg'),
+      },
+      {
+        texto: 'Cronograma de actividades de aseguramiento.',
+        icono: require('@/assets/curso/temas/tema1/img-43.svg'),
+      },
+      {
+        texto:
+          'Designación de responsables para la ejecución de las actividades.',
+        icono: require('@/assets/curso/temas/tema1/img-44.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

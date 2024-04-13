@@ -9,7 +9,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis se presentan los temas más importantes del componente formativo, en cuanto a la ejecución de un proyecto deportivo y a la gestión de adquisiciones, compras y contrataciones.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
