@@ -7,7 +7,7 @@
         span 1
       h1 Ejecución de un proyecto deportivo 
 
-    p Es en esta fase se llevan a cabo los planes del proyecto, se ejecutan las actividades o una fase determinada según ha sido planificada, de modo que se generen los entregables definidos en el alcance. Para que se cumpla todo lo establecido en el plan es importante asignar responsables, sus respectivas responsabilidades y velar por su cumplimiento conforme a lo estipulado en el plan. 
+    p En esta fase se llevan a cabo los planes del proyecto, se ejecutan las actividades o una fase determinada según ha sido planificada, de modo que se generen los entregables definidos en el alcance. Para que se cumpla todo lo establecido en el plan, es importante asignar responsables, sus respectivas responsabilidades y velar por su cumplimiento conforme a lo estipulado en el plan. 
     p.mb-5 Para garantizar la ejecución del proyecto, el gestor deportivo deberá tener en cuenta tres aspectos importantes:
 
     .row.mb-5
@@ -28,7 +28,7 @@
 
           p 
             b Asegurar que se recopile la información 
-            | necesaria para el diseño de los informes de progreso del proyecto
+            | necesaria para el diseño de los informes de progreso del proyecto.
 
       .col-lg-4.mb-4
         .tarjeta.tarjeta-rotate.color-acento-botones--borde.p-4.bg-gray.h-100
@@ -91,7 +91,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Gestión de comunicaciones
 
-    p La gestión de las comunicaciones según la PMBOK (2013), "incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto." En este sentido, la comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto. Además, suministrar la información a la persona requerida en el momento oportuno, empleando el medio, formato y técnica más apropiada, es lo más acertado para establecer una adecuada apropiación de los procesos al interior de un proyecto.
+    p La gestión de las comunicaciones según la PMBOK (2013), "incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto". En este sentido, la comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto. Además, suministrar la información a la persona requerida en el momento oportuno, empleando el medio, formato y técnica más apropiada, es lo más acertado para establecer una adecuada apropiación de los procesos al interior de un proyecto.
     p.mb-5 Por lo anterior, este componente es de gran importancia, ya que de nada sirve tener una correcta planificación en un proyecto, sino se establecen canales ágiles de comunicación que permitan un trabajo sincronizado y coordinado. Por ello, en la gestión de comunicaciones del proyecto es importante tener en cuenta:
 
     .row.mb-5
@@ -99,43 +99,43 @@
         .tarjeta-slide-up.bg-gray.h-100
           .tarjeta-slide-up__content.text-center.p-4
             img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen' style='width: 125px').m-auto.mb-3
-            p Qué información requiere.
+            p ¿Qué información requiere?
 
           .tarjeta-slide-up__up.bg--1.text-center.p-4
             img(src='@/assets/curso/temas/tema1/13.svg', alt='Texto que describa la imagen' style='width: 163px').m-auto.mb-3
-            p.text-white Qué información requiere
+            p.text-white ¿Qué información requiere?
 
       .col-lg-3.mb-3
         .tarjeta-slide-up.bg-gray.h-100
           .tarjeta-slide-up__content.text-center.p-4
             img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen' style='width: 125px').m-auto.mb-3
-            p Cuándo la necesita.
+            p ¿Cuándo la necesita?
 
           .tarjeta-slide-up__up.bg--4.text-center.p-4
             img(src='@/assets/curso/temas/tema1/12.svg', alt='Texto que describa la imagen' style='width: 163px').m-auto.mb-3
-            p.text-white Cuándo la necesita.
+            p.text-white ¿Cuándo la necesita?
 
       .col-lg-3.mb-3
         .tarjeta-slide-up.bg-gray.h-100
           .tarjeta-slide-up__content.text-center.p-4
             img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen' style='width: 125px').m-auto.mb-3
-            p Quién necesita la información. 
+            p ¿Quién necesita la información? 
 
           .tarjeta-slide-up__up.bg--1.text-center.p-4
             img(src='@/assets/curso/temas/tema1/13.svg', alt='Texto que describa la imagen' style='width: 163px').m-auto.mb-3
-            p.text-white Quién necesita la información.
+            p.text-white ¿Quién necesita la información?
 
       .col-lg-3.mb-3
         .tarjeta-slide-up.bg-gray.h-100
           .tarjeta-slide-up__content.text-center.p-4
             img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen' style='width: 125px').m-auto.mb-3
-            p Cómo se debe presentar la información. 
+            p ¿Cómo se debe presentar la información? 
 
           .tarjeta-slide-up__up.bg--4.text-center.p-4
             img(src='@/assets/curso/temas/tema1/12.svg', alt='Texto que describa la imagen' style='width: 163px').m-auto.mb-3
-            p.text-white Cómo se debe presentar la información. 
+            p.text-white ¿Cómo se debe presentar la información? 
     
-    p.mb-5 La comunicación debe ser siempre clara, sin ambigüedades permitiendo el intercambio fluido de información. Para ello, existen diferentes tipos de comunicación que se pueden emplear en un proyecto, a saber:
+    p.mb-5 La comunicación debe ser siempre clara, sin ambigüedades, permitiendo el intercambio fluido de información. Para ello, existen diferentes tipos de comunicación que se pueden emplear en un proyecto, a saber:
     
     .row.mt-5.justify-content-center.mt-5
       .col-lg-6.col-12 
@@ -246,7 +246,7 @@
         .tarjeta.tarjeta-slide-up2.color-primario--borde.overflow-hidden.bg-gray(style="height: 300px")
           .tarjeta-slide-up__up: img(src='@/assets/curso/temas/tema1/24.jpg', alt='Texto que describa la imagen' style='width:100%')
           .tarjeta__texto.p-5.m-auto.d-flex.align-self-center
-            h3.text-center.m-auto Se trata de evitar el conflicto a toda costa o se retira cuando se presenta
+            h3.text-center.m-auto Se trata de evitar el conflicto a toda costa o se retira cuando se presenta.
           .tarjeta__titulo.bg--1.d-flex.align-self-end.aling-items-center.justify-content-center.p-2
             h4.text-center.text-white.m-auto Evasión
 
@@ -255,7 +255,7 @@
         .tarjeta.tarjeta-slide-up2.color-primario--borde.overflow-hidden.bg-gray(style="height: 300px")
           .tarjeta-slide-up__up: img(src='@/assets/curso/temas/tema1/25.jpg', alt='Texto que describa la imagen' style='width:100%')
           .tarjeta__texto.p-5.m-auto.d-flex.align-self-center
-            h3.text-center.m-auto Adaptación y aceptación de las demandas para satisfacer la otra parte 
+            h3.text-center.m-auto Adaptación y aceptación de las demandas para satisfacer la otra parte.
           .tarjeta__titulo.bg--1.d-flex.align-self-end.aling-items-center.justify-content-center.p-2
             h4.text-center.text-white.m-auto Acomodación
 
@@ -263,7 +263,7 @@
         .tarjeta.tarjeta-slide-up2.color-primario--borde.overflow-hidden.bg-gray(style="height: 300px")
           .tarjeta-slide-up__up: img(src='@/assets/curso/temas/tema1/26.jpg', alt='Texto que describa la imagen' style='width:100%')
           .tarjeta__texto.p-5.m-auto.d-flex.align-self-center
-            h3.text-center.m-auto Cada parte cede algo para alcanzar el acuerdo
+            h3.text-center.m-auto Cada parte cede algo para alcanzar el acuerdo.
           .tarjeta__titulo.bg--1.d-flex.align-self-end.aling-items-center.justify-content-center.p-2
             h4.text-center.text-white.m-auto Conciliación
 
@@ -291,7 +291,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/29.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0
-              p Los conflictos no se resuelven con agresividad, violencia o posiciones de poder. Ya que con esto se puede vencer a alguien, pero no convencer ni persuadir por lo tanto el conflicto no se resolverá.
+              p Los conflictos no se resuelven con agresividad, violencia o posiciones de poder. Ya que con esto se puede vencer a alguien, pero no convencer ni persuadir, por lo tanto el conflicto no se resolverá.
 
           .row.align-items-center
             .col-md-9

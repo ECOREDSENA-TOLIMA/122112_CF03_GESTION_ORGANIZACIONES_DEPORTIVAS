@@ -7,7 +7,7 @@
         span 2
       h1 Gestión de adquisiciones, compras y contrataciones
 
-    p.mb-5 El proceso de adquisiciones es cuando una institución o una empresa provee los materiales o servicios necesarios para el correcto funcionamiento
+    p.mb-5 El proceso de adquisiciones es cuando una institución o una empresa provee los materiales o servicios necesarios para el correcto funcionamiento.
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -125,7 +125,7 @@
         p Según la norma ISO 9001:2015, “la organización debe determinar y aplicar criterios para la evaluación, supervisión del rendimiento y la reevaluación de proveedores externos, en función de su capacidad para proporcionar procesos o productos y servicios de acuerdo a las necesidades”. Teniendo en cuenta lo anterior, en todas las organizaciones en las que se realicen procesos de compra, es necesario aplicar los criterios de control y seguimiento, según sea el caso, más aún si la organización tiene implementado un sistema de calidad.
           br
           br
-          |En un proceso anterior el proveedor se debe someter a unos criterios de evaluación y posterior calificación lo que dará como resultado, la selección de este para suministrar la compra. A partir de este momento se inicia el proceso de control y seguimiento de cumplimiento de los proveedores, entendiendo a este como la evaluación de diferentes criterios de cumplimiento, como calidad, precio, tiempo de respuesta, etc. los cuales están establecidos previamente en un plan de control de proveedores; este control se aplica según sea el caso:
+          |En un proceso anterior, el proveedor se debe someter a unos criterios de evaluación y posterior calificación, lo que dará como resultado, la selección de este para suministrar la compra. A partir de este momento se inicia el proceso de control y seguimiento de cumplimiento de los proveedores, entendiendo a este como la evaluación de diferentes criterios de cumplimiento, como calidad, precio, tiempo de respuesta, etc. los cuales están establecidos previamente en un plan de control de proveedores; este control se aplica según sea el caso:
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/52.jpg', alt='Texto que describa la imagen')
@@ -149,12 +149,12 @@
       .tarjeta.rounded-1.bg--4-claro2.p-3(x="39%" y="23%")
         p.mb-0 Información sobre los parámetros o condiciones que debe cumplir el proveedor.
       .tarjeta.rounded-1.bg--4-claro2.p-3(x="58%" y="30%")
-        p.mb-0 En qué momento se va a aplicar el plan a los proveedores.
+        p.mb-0 ¿En qué momento se va a aplicar el plan a los proveedores?
       .tarjeta.rounded-1.bg--4-claro2.p-3(x="40%" y="57%")
-        p.mb-0 Cómo y con qué métodos se llevará a cabo el plan de proveedores. 
+        p.mb-0 ¿Cómo y con qué métodos se llevará a cabo el plan de proveedores? 
       .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="57%")
-        p Quiénes son las personas responsables de llevarlo a cabo.
-      .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="78%") Cómo se comprobará el buen funcionamiento y eficacia de las actividades.
+        p ¿Quiénes son las personas responsables de llevarlo a cabo?
+      .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="78%") ¿Cómo se comprobará el buen funcionamiento y eficacia de las actividades?
 
     p.mb-5 Este plan se debe aplicar en el momento en el que se selecciona al proveedor válido para realizar el suministro de la compra. Además, existen algunos instrumentos que se utilizan para realizar el control y evaluación del proveedor en los que se plasma el desempeño según una escala de valor o unos criterios establecidos por la organización, un ejemplo de ello puede ser:
 
@@ -186,7 +186,10 @@
             h3.text-center.align-self-end Plazo de entrega
 
     p.mb-5 De acuerdo a lo anterior, se deben considerar unas escalas de desempeño, la cual se realiza con base en evaluaciones parciales, tanto en productos o servicios, como en las que se relacionan a continuación: 
-
+    
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Escala de calificación para desempeño de proveedores</em>
+    
     .tabla-a.color-acento-contenido.mb-5(alt='En la tabla 1 se muestra la escala de calificación para evaluar el desempeño de los proveedores. Según esta escala, se considera un desempeño deficiente si la puntuación es menor al 59 %, aceptable si está en el rango del 60 % al 95 %, y excelente si alcanza el 96 % o más.') 
       table.text-center
         thead
@@ -240,7 +243,7 @@
           .tarjeta-foto-hover__tarjeta.rounded-3.bg--3.d-flex.align-items-center.justify-content-center
             .p-4
               h5 Fondos de emprendimiento
-              p Son instituciones que administran fondos de capital emprendedor, tanto con recursos públicos como privados, se tiene unos compromisos fijos y se realiza un acompañamiento, para que esta inversión tenga el éxito esperado, en algunos casos los recursos asignados son condonables.
+              p Son instituciones que administran fondos de capital emprendedor, tanto con recursos públicos como privados, se tienen unos compromisos fijos y se realiza un acompañamiento, para que esta inversión tenga el éxito esperado, en algunos casos, los recursos asignados son condonables.
       
       .col-lg-4.mb-3
         .tarjeta.tarjeta-foto-hover
