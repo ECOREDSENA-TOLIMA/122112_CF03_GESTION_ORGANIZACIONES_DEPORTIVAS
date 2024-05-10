@@ -154,7 +154,7 @@
         p.mb-0 ¿Cómo y con qué métodos se llevará a cabo el plan de proveedores? 
       .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="57%")
         p ¿Quiénes son las personas responsables de llevarlo a cabo?
-      .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="78%") ¿Cómo se comprobará el buen funcionamiento y eficacia de las actividades?
+      .tarjeta.rounded-1.bg--4-claro2.p-3(x="60%" y="78%") Cómo se comprobará el buen funcionamiento y eficacia de las actividades
 
     p.mb-5 Este plan se debe aplicar en el momento en el que se selecciona al proveedor válido para realizar el suministro de la compra. Además, existen algunos instrumentos que se utilizan para realizar el control y evaluación del proveedor en los que se plasma el desempeño según una escala de valor o unos criterios establecidos por la organización, un ejemplo de ello puede ser:
 
