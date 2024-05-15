@@ -127,7 +127,7 @@ export default {
     {
       tema: '2. Gestión de adquisiciones, compras y contrataciones',
       referencia:
-        'Miguel, R. (2020). Procedimientos generales de proveedores. Grupo Lebbyac.',
+        'Miguel, R. (2020). Grupo Lebbyac. Selección, evaluación y reevaluación de proveedores.',
       tipo: 'Manual de procedimiento',
       link:
         'http://www.lebbyac.com/manual2/Procedimientos_generales/proveedores.html',
@@ -272,7 +272,8 @@ export default {
         },
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo:
+            'Validador y Vinculador de Recursos Educativos Digitales en LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
